@@ -7,6 +7,8 @@
     "build": "npm run pre:build && tsc --build",
     "start": "node dist/index.js",
     "start:nest": "node dist/src/http/nest/main.js",
+    "start:koa": "node dist/src/http/koa/server.js",
+    "start:express": "node dist/src/http/express/server.js",
     "dev": "tsc --watch",
     "test": "jest --watch",
     "lint": "eslint --flag unstable_ts_config",
