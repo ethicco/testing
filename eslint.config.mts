@@ -23,5 +23,9 @@ export default [
   eslintPluginJest.configs['flat/recommended'],
   {
     ignores: ["node_modules", "dist", "public"]
-  },
+  },{
+    rules: {
+      "jest/no-conditional-expect": 0
+    }
+  }
 ] satisfies Linter.Config[];

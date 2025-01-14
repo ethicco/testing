@@ -6,6 +6,7 @@ import { compilerOptions } from "./tsconfig.json";
 const config: Config = {
   preset: "ts-jest",
   testEnvironment: "node",
+  // setupFilesAfterEnv: ["jest-extended"],
   rootDir: ".",
   roots: ["<rootDir>"],
   modulePaths: ["<rootDir>"],
